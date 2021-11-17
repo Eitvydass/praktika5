@@ -1,0 +1,58 @@
+
+
+
+p{
+	color: blue;
+}
+
+article{
+	background: tomato;
+	color: yellow;
+}
+
+#vip{
+	background: purple;
+}
+
+.center{
+	text-align: center;
+}
+
+.blue{
+	background-color: blue;
+}
+
+a[href$=".xlsx"] {
+  color: darkgrey;
+}
+
+a[href$=".pdf"] {
+  color: red;
+}
+ .documents a[href$=".docx"]{
+ 	color: green;
+ }
+
+ article a{
+ 	color: red;
+ }
+
+ article a:hover{
+ 	color: aqua;
+ }
+
+ .numbers ul li:first-child{
+ 	background-color: red;
+ }
+ .numbers ul li:nth-child(3){
+ 	background-color: yellow;
+ }
+ .numbers ul li:last-child{
+ 	background-color: aqua;
+ }
+ .services ul>li{
+ 	color: red;
+ }
+ .services ul li ul li{
+ 	color: blue;
+ }
